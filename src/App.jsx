@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import useFetch from './hooks/useFetch'
-import InfoLocation from './components/infoLocation'
+import InfoLocation from './components/InfoLocation'
 import CardResident from './components/CardResident'
 
 function App() {
