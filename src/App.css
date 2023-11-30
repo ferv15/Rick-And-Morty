@@ -1,0 +1,54 @@
+.app_carga{
+    background-image: url(../public/images/fondo.jpeg) ;
+
+}
+.app {
+    background-color: #073137;
+    min-height: 100vh;
+    padding-top: 3em;
+}
+.app_carga {
+    text-align: center;
+    size: 30vh;
+}
+.app_form {
+    display: flex;
+    justify-content: center;
+}
+.app_title{
+    font-size:50px;
+    text-align: center;
+    margin: 0.5em;
+    font-weight: 1000;
+    color: chartreuse;
+
+}
+.app_input {
+    border: none;
+    padding: 0.4em 1em;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0.5em 0 0 0.5em;
+    transition: transform 150ms ease, box-shadow 150ms ease, -webkit-transform 150ms ease;
+}
+.app_input :hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 1.5 em black;
+}
+.app_btn {
+    display: block;
+    border: none;
+    width: 7em;
+    background-color: rgb(143, 180, 87);
+    padding: 0.4em;
+    border-radius: 0 0.5em 0.5em 0;
+    color: white;
+    font-weight: 700;
+}
+.app_card_container {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
